@@ -5,7 +5,7 @@
 Console.WriteLine("введите число");
 int number = int.Parse(Console.ReadLine());
 int temp = 1;
-while (temp < number)
+while (temp <= number)
 {
     if (temp % 2 == 0)
     {
